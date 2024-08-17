@@ -24,11 +24,11 @@ const Card: React.FC<CardPropsType> = ({
           <a href={link}>
             <div className="flex justify-center items-center flex-col">
               {type === "primary" && (
-                <div className="relative h-[400px] pt-[50px] w-full bg-cover bg-center rounded-lg overflow-hidden group">
+                <div className="flex items-center relative h-[400px] px-[20px] pt-[60px] pb-[20px] w-full bg-cover bg-center rounded-lg overflow-hidden group">
                   <Image
                     src={(img && img) || someImage}
                     alt="image not found"
-                    className="w-full h-full group-hover:brightness-100"
+                    className="w-full h-full rounded-md"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-20 transition-opacity group-hover:bg-opacity-5"></div>
                 </div>

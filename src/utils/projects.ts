@@ -1,6 +1,10 @@
 import { StaticImageData } from "next/image";
 import UdevsProject from "../../public/assets/images/projects/udevs.svg";
+import HouzingProject from "../../public/assets/images/projects/houzing.png";
+import GithubFinderProject from "../../public/assets/images/projects/g-finder.png";
+import BookShelfProject from "../../public/assets/images/projects/book-shelf.png";
 import AdminDashboardProject from "../../public/assets/images/projects/dashboard.png";
+import UnityDashboardProject from "../../public/assets/images/projects/unity-dash.png";
 
 interface ProjectItemType {
   id: number;
@@ -25,25 +29,25 @@ const projectsData: ProjectItemType[] = [
   {
     id: 3,
     title: "Github Finder",
-    img: UdevsProject,
+    img: GithubFinderProject,
     link: "https://github-findder.netlify.app",
   },
   {
     id: 4,
-    title: "Book shelf",
-    img: UdevsProject,
+    title: "Unity Dashboard",
+    img: UnityDashboardProject,
     link: "https://library-project-reactjs.netlify.app/",
   },
   {
     id: 5,
     title: "Houzing",
-    img: UdevsProject,
+    img: HouzingProject,
     link: "https://github.com/xojiakbar-coder/houzing",
   },
   {
     id: 6,
-    title: "Registry Page with Google sheets",
-    img: UdevsProject,
+    title: "Book shelf",
+    img: BookShelfProject,
     link: "https://registry-page.netlify.app/",
   },
 ];
