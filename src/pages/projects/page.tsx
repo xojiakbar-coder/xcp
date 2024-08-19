@@ -7,7 +7,7 @@ import Title from "@/components/Generic/Title/Title";
 const Projects = () => {
   return (
     <div className="flex justify-center w-full mt-[50px] pt-[100px]">
-      <div className="w-[85%]">
+      <div className="xl:w-[85%] lg:w-[85%] md:w-[85%] sm:w-[85%] w-[97%]">
         <Title>Projects</Title>
         <Line />
         <div className="flex justify-center w-full pt-[20px]">
