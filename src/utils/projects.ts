@@ -28,27 +28,27 @@ const projectsData: ProjectItemType[] = [
   },
   {
     id: 3,
+    title: "Unity Dashboard",
+    img: UnityDashboardProject,
+    link: "https://unity-dashboard.netlify.app",
+  },
+  {
+    id: 4,
+    title: "Book shelf",
+    img: BookShelfProject,
+    link: "https://book-shelf-reactjs.netlify.app/",
+  },
+  {
+    id: 5,
     title: "Github Finder",
     img: GithubFinderProject,
     link: "https://github-findder.netlify.app",
   },
   {
-    id: 4,
-    title: "Unity Dashboard",
-    img: UnityDashboardProject,
-    link: "https://library-project-reactjs.netlify.app/",
-  },
-  {
-    id: 5,
+    id: 6,
     title: "Houzing",
     img: HouzingProject,
     link: "https://github.com/xojiakbar-coder/houzing",
-  },
-  {
-    id: 6,
-    title: "Book shelf",
-    img: BookShelfProject,
-    link: "https://registry-page.netlify.app/",
   },
 ];
 

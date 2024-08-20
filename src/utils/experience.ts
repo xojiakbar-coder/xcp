@@ -23,7 +23,7 @@ const experienceData: ExperienceItemType[] = [
     id: 1,
     company_name: "Teaching",
     job: "Frontend Mentor",
-    duration: "Apr, 2023 - Jan, 2024",
+    duration: "Apr, 2023 - Present",
     work_time: "Full-time",
     work_done: [
       {

@@ -24,7 +24,7 @@ const Card: React.FC<CardPropsType> = ({
           <a href={link}>
             <div className="flex justify-center items-center flex-col">
               {type === "primary" && (
-                <div className="flex items-center relative h-[400px] xl:px-[20px] lg:px-[20px] md:px-[20px] sm:px-[20px] xl:pt-[60px] lg:pt-[60px] md:pt-[60px] sm:pt-[60px] pt-[60px] px-[2px] xl:pb-[20px] lg:pb-[20px] md:pb-[20px] w-full bg-cover bg-center rounded-lg overflow-hidden group">
+                <div className="flex items-center relative h-[400px] xl:px-[20px] lg:px-[20px] md:px-[20px] sm:px-[20px] xl:pt-[60px] lg:pt-[60px] md:pt-[60px] sm:pt-[60px] pt-[60px] px-[2px] xl:pb-[20px] lg:pb-[20px] md:pb-[20px] pb-[20px] w-full bg-cover bg-center rounded-lg overflow-hidden group">
                   <Image
                     src={(img && img) || someImage}
                     alt="image not found"
