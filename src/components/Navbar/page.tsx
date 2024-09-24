@@ -22,14 +22,14 @@ const Navbar: React.FC = () => {
                 return (
                   item.navbar && (
                     <div
-                      className="hover:bg-[rgb(255_255_255_/_0.9)] hover:text-black text-white bg-transparent backdrop-blur-[10px] transition duration-150 ease-out hover:ease-in select-none py-2 px-3 rounded-lg cursor-pointer hover:[text-shadow:_0_0_20px_rgb(250_250_250_/_0.9)]"
+                      className="flex items-center border-2 border-transparent py-3 px-4 rounded-xl hover:border-hover-border hover:bg-transparent cursor-pointer transition duration-200 ease-out hover:ease-in backdrop-blur-[10px]"
                       key={item.id}
                     >
                       <Link
                         to={item.path}
                         smooth={true}
                         duration={500}
-                        className="pt-[7px] font-semibold font-josefin-font"
+                        className="pt-[4px] font-semibold font-josefin-font text-white"
                       >
                         {item.title}
                       </Link>

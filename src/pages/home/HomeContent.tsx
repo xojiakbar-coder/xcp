@@ -21,7 +21,7 @@ const HomeContent: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-light-color mt-2 w-1/2 h-max min-h-max py-3 border-2 border-transparent transition duration-220 ease-out hover:ease-in text-black-color rounded-lg font-mont-font uppercase font-semibold text-[18px] hover:bg-transparent hover:border-light-color hover:text-light-color">
+          <button className="bg-light-color mt-2 w-1/2 h-max min-h-max py-3 border-2 border-transparent duration-220 text-black-color hover:text-white font-mont-font uppercase font-semibold text-[18px] rounded-xl hover:border-hover-border hover:bg-transparent cursor-pointer transition duration-200 ease-out hover:ease-in">
             Contact Me
           </button>
         </a>
