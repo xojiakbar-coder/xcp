@@ -2,8 +2,8 @@ import React from "react";
 
 const HomeContent: React.FC = () => {
   return (
-    <div className="flex items-center sm:justify-center md:justify-start w-full h-full absolute z-20 md:pl-[50px] md:px-[10px] sm:px-[10px] px-[0]">
-      <div className="flex flex-col justify-between backdrop-blur-[9px] py-[18px] px-[20px] gap-y-[10px] lg:w-[60%] md:w-[75%] sm:w-[90%] w-full">
+    <div className="flex items-center sm:justify-center md:justify-start w-full sticky h-full z-20 ml-[-10px]">
+      <div className="flex flex-col justify-between backdrop-blur-[9px] rounded-xl border-[0.1px] border-gray-500 px-[40px] py-[70px] gap-y-[10px] lg:w-[70%] md:w-[100%] sm:w-[100%] w-full">
         <h1 className="font-josefin-font text-[35px] xl:text-[60px] lg:text-[60px] md:text-[45px] sm:text-[40px] font-[700] text-light-color w-full">
           Xojiakbar Isroilov
         </h1>
@@ -21,7 +21,7 @@ const HomeContent: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-light-color mt-2 w-1/2 h-max min-h-max py-3 border-2 border-transparent duration-220 text-black-color hover:text-white font-mont-font uppercase font-semibold text-[18px] rounded-xl hover:border-hover-border hover:bg-transparent cursor-pointer transition duration-200 ease-out hover:ease-in">
+          <button className="bg-button-bg mt-2 w-1/2 h-max min-h-max py-3 border-[3px] border-transparent text-white font-mont-font uppercase font-semibold text-[18px] rounded-xl hover:border-blue-border hover:border-[3px] hover:bg-none cursor-pointer transition duration-[1000ms]">
             Contact Me
           </button>
         </a>

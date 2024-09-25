@@ -13,11 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "custom-linear":
-          "linear-gradient(160deg, rgb(0, 37, 255) 0%, rgb(229, 5, 241) 47%, rgb(255, 109, 0) 100%)", // Yangi gradient qo'shildi
+          "linear-gradient(160deg, rgb(0, 37, 255) 0%, rgb(229, 5, 241) 47%, rgb(255, 109, 0) 100%)",
+        "button-bg": `linear-gradient(to right, #005C97 0%, #363795  51%, #005C97  100%)`,
       },
       colors: {
         "light-color": "#ffffff",
         "black-color": "#000000",
+        "blue-border": "rgb(0, 92, 151)",
         "hover-border": "rgb(250, 193, 110)",
       },
       fontFamily: {

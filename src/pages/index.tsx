@@ -4,6 +4,8 @@ import pagesData from "@/utils/pages";
 import Footer from "@/components/Footer/page";
 import Navbar from "../components/Navbar/page";
 import { Element as ScrollElement } from "react-scroll";
+import { DrawerProvider } from "@/context/DrawerContext";
+import Drawer from "@/components/Navbar/drawer";
 
 export default function Home() {
   useEffect(() => {
@@ -21,13 +23,14 @@ export default function Home() {
     };
   }, []);
   return (
-    <>
+    <DrawerProvider>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <title>Xojiakbar Isroilov</title>
       </Head>
 
       <Navbar />
+      <Drawer />
       <div className="w-full">
         {pagesData &&
           pagesData.map((page) => {
@@ -41,6 +44,6 @@ export default function Home() {
           })}
       </div>
       <Footer />
-    </>
+    </DrawerProvider>
   );
 }
