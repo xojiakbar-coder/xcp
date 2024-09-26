@@ -21,15 +21,15 @@ const projectsData: ProjectItemType[] = [
   },
   {
     id: 2,
-    title: "Udevs clone",
-    img: UdevsProject,
-    link: "https://udevs-io.netlify.app",
-  },
-  {
-    id: 3,
     title: "Unity Dashboard",
     img: UnityDashboardProject,
     link: "https://unity-dashboard.netlify.app",
+  },
+  {
+    id: 3,
+    title: "Udevs clone",
+    img: UdevsProject,
+    link: "https://udevs-io.netlify.app",
   },
   {
     id: 4,

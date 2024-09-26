@@ -5,9 +5,8 @@ const HomePage: React.FC = () => {
   return (
     <div className="flex justify-center w-full h-[100vh] min-h-[100vh] relative">
       <div className="flex justify-center w-full">
-        <div className="w-[85%]">
-        <HomeContent />
-
+        <div className="lg:w-[88%] md:w-[90%] sm:w-[95%] w-[97%]">
+          <HomeContent />
         </div>
         <GlobeAnimation />
       </div>

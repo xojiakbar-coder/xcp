@@ -23,7 +23,7 @@ const experienceData: ExperienceItemType[] = [
     id: 1,
     company_name: "Teaching",
     job: "Frontend Mentor",
-    duration: "Apr, 2023 - Present",
+    duration: "Apr, 2023 - Aug, 2024",
     work_time: "Full-time",
     work_done: [
       {
@@ -64,22 +64,27 @@ const experienceData: ExperienceItemType[] = [
     id: 3,
     company_name: "EDUCOR",
     job: "Frontend developer",
-    duration: "Aug, 2024 - Present",
+    duration: "Aug, 2024 - 2024",
     work_time: "Part-time",
     work_done: [
       {
         id: 1,
         description:
-          "Currently, I am working and gaining experience as a Front-end developer at Educor",
+          "I worked as a Front-end developer at Educor and gained some experience",
       },
       {
         id: 2,
         description:
-          "In this company, I am working with technologies that I did not know before and it is very useful for me",
+          "In this company, I worked with technologies that I did not know before, and it was very useful for me",
       },
       {
         id: 3,
         description: "This company has helped me a lot to grow in programming",
+      },
+      {
+        id: 4,
+        description:
+          "This start-up was very useful for me, we increased our knowledge by sharing experience in working with back-end.",
       },
     ],
     company_logo: Educore,

@@ -5,7 +5,7 @@ import profileData from "@/utils/profiles";
 const Profiles = () => {
   return (
     <div>
-      <div className="flex flex-row items-center w-full xl:gap-[50px] lg:gap-[22px] md:gap-[6px] gap-[30px]">
+      <div className="md:flex hidden flex-row items-center w-full xl:gap-[50px] lg:gap-[22px] md:gap-[6px] gap-[30px]">
         {profileData.map((itme) => {
           return (
             <a

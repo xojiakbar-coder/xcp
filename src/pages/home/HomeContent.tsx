@@ -2,13 +2,13 @@ import React from "react";
 
 const HomeContent: React.FC = () => {
   return (
-    <div className="flex items-center sm:justify-center md:justify-start w-full sticky h-full z-20 ml-[-10px]">
+    <div className="flex items-center sm:justify-center md:justify-start w-full sticky h-full z-20">
       <div className="flex flex-col justify-between backdrop-blur-[9px] rounded-xl border-[0.1px] border-gray-500 px-[40px] py-[70px] gap-y-[10px] lg:w-[70%] md:w-[100%] sm:w-[100%] w-full">
         <h1 className="font-josefin-font text-[35px] xl:text-[60px] lg:text-[60px] md:text-[45px] sm:text-[40px] font-[700] text-light-color w-full">
           Xojiakbar Isroilov
         </h1>
         <b className="font-[900] font-josefin-font text-[20px] text-light-color w-full">
-          Frontend Engineer
+          React.js Engineer
         </b>
         <p className="font-mont-font w-full font-[500] text-light-color">
           Assalamualaikum I am a frontend engineer and I am active in this field
